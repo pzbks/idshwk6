@@ -1,0 +1,866 @@
+E:\网络入侵检测\SysinternalsSuite>date
+当前日期: 2020/05/14 周四
+输入新日期: (年月日)
+
+E:\网络入侵检测\SysinternalsSuite>time
+当前时间: 14:14:04.27
+输入新时间:
+
+E:\网络入侵检测\SysinternalsSuite>systeminfo
+
+主机名:           LAPTOP-ETPB7K53
+OS 名称:          Microsoft Windows 10 家庭中文版
+OS 版本:          10.0.18362 暂缺 Build 18362
+OS 制造商:        Microsoft Corporation
+OS 配置:          独立工作站
+OS 构件类型:      Multiprocessor Free
+注册的所有人:     Windows 用户
+注册的组织:
+产品 ID:          00342-30262-00002-AAOEM
+初始安装日期:     2019/9/10, 0:42:35
+系统启动时间:     2020/5/14, 12:23:27
+系统制造商:       LENOVO
+系统型号:         80WW
+系统类型:         x64-based PC
+处理器:           安装了 1 个处理器。
+                  [01]: Intel64 Family 6 Model 158 Stepping 9 GenuineIntel ~2801 Mhz
+BIOS 版本:        LENOVO 4KCN27WW, 2017/4/18
+Windows 目录:     C:\WINDOWS
+系统目录:         C:\WINDOWS\system32
+启动设备:         \Device\HarddiskVolume5
+系统区域设置:     zh-cn;中文(中国)
+输入法区域设置:   zh-cn;中文(中国)
+时区:             (UTC+08:00) 北京，重庆，香港特别行政区，乌鲁木齐
+物理内存总量:     8,067 MB
+可用的物理内存:   3,172 MB
+虚拟内存: 最大值: 15,491 MB
+虚拟内存: 可用:   8,547 MB
+虚拟内存: 使用中: 6,944 MB
+页面文件位置:     E:\pagefile.sys
+域:               WORKGROUP
+登录服务器:       \\LAPTOP-ETPB7K53
+修补程序:         安装了 13 个修补程序。
+                  [01]: KB4552931
+                  [02]: KB4515383
+                  [03]: KB4515530
+                  [04]: KB4516115
+                  [05]: KB4520390
+                  [06]: KB4521863
+                  [07]: KB4524569
+                  [08]: KB4528759
+                  [09]: KB4537759
+                  [10]: KB4538674
+                  [11]: KB4541338
+                  [12]: KB4552152
+                  [13]: KB4549951
+网卡:             安装了 8 个 NIC。
+                  [01]: Netease UU TAP-Win32 Adapter V9.21
+                      连接名:      以太网 2
+                      状态:        媒体连接已中断
+                  [02]: Sangfor SSL VPN CS Support System VNIC
+                      连接名:      以太网 3
+                      状态:        媒体连接已中断
+                  [03]: Realtek 8821AE Wireless LAN 802.11ac PCI-E NIC
+                      连接名:      WLAN
+                      状态:        媒体连接已中断
+                  [04]: VMware Virtual Ethernet Adapter for VMnet1
+                      连接名:      VMware Network Adapter VMnet1
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.187.254
+                      IP 地址
+                        [01]: 192.168.187.1
+                        [02]: fe80::75dd:88ba:66d3:93ec
+                  [05]: VMware Virtual Ethernet Adapter for VMnet8
+                      连接名:      VMware Network Adapter VMnet8
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.127.254
+                      IP 地址
+                        [01]: 192.168.127.1
+                        [02]: fe80::258b:1d03:57b4:2f13
+                  [06]: Bluetooth Device (Personal Area Network)
+                      连接名:      蓝牙网络连接
+                      状态:        媒体连接已中断
+                  [07]: Realtek PCIe GBE Family Controller
+                      连接名:      以太网
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.0.1
+                      IP 地址
+                        [01]: 192.168.0.106
+                        [02]: fe80::7890:73f:1302:b7ab
+                  [08]: LogMeIn Hamachi Virtual Ethernet Adapter
+                      连接名:      Hamachi
+                      启用 DHCP:   是
+                      DHCP 服务器: 25.0.0.1
+                      IP 地址
+                        [01]: 25.42.180.238
+                        [02]: fe80::500c:8338:f77a:a341
+                        [03]: 2620:9b::192a:b4ee
+Hyper-V 要求:     虚拟机监视器模式扩展: 是
+                  固件中已启用虚拟化: 是
+                  二级地址转换: 是
+                  数据执行保护可用: 是
+
+E:\网络入侵检测\SysinternalsSuite>diskext.exe
+
+DiskExt v1.2 - Disk extent dumper
+Copyright (C) 2001-2016 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Volume: \\?\Volume{89edf5e4-5552-48f3-bbcf-3302f16f537d}\
+   Mounted at: E:\
+   Extent [1]:
+       Disk:   0
+       Offset: 135266304
+       Length: 322227404800
+Volume: \\?\Volume{0724c73d-51a4-41fb-a62a-43fd9bd56fec}\
+   Mounted at: F:\
+   Extent [1]:
+       Disk:   0
+       Offset: 322362671104
+       Length: 322227404800
+Volume: \\?\Volume{1640cce2-9df6-4c1f-ab34-8a91bdc5b042}\
+   Mounted at: G:\
+   Extent [1]:
+       Disk:   0
+       Offset: 644590075904
+       Length: 355613016064
+Volume: \\?\Volume{d5af9494-f1ff-4159-a633-439f56ffae71}\
+   Mounted at: C:\
+   Extent [1]:
+       Disk:   1
+       Offset: 290455552
+       Length: 64424509440
+Volume: \\?\Volume{9f361be6-ab24-4bc1-86f1-a50a549ecfc6}\
+   Mounted at: D:\
+   Extent [1]:
+       Disk:   1
+       Offset: 64714964992
+       Length: 62269884928
+Volume: \\?\Volume{4c8e63bd-7e1a-4771-912b-3e8654ad9248}\
+   Mounted at: <unmounted>
+   Extent [1]:
+       Disk:   1
+       Offset: 126986747904
+       Length: 1048576000
+Volume: \\?\Volume{ed77dae5-7e00-42ad-94f3-4fa6de5da1b0}\
+   Mounted at: <unmounted>
+   Error getting extents
+拒绝访问。
+
+E:\网络入侵检测\SysinternalsSuite>Autorunsc64.exe
+
+Sysinternals Autoruns v13.96 - Autostart program viewer
+Copyright (C) 2002-2019 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+
+HKLM\System\CurrentControlSet\Control\Terminal Server\Wds\rdpwd\StartupPrograms
+   rdpclip
+     rdpclip
+     RDP 剪贴板监视程序
+     Microsoft Corporation
+     10.0.18362.752
+     c:\windows\system32\rdpclip.exe
+     1921/12/1 20:34
+
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Userinit
+   C:\Windows\system32\userinit.exe
+     C:\Windows\system32\userinit.exe
+     Userinit 登录应用程序
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\userinit.exe
+     1940/8/17 19:07
+
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\VmApplet
+   SystemPropertiesPerformance.exe
+     SystemPropertiesPerformance.exe
+     更改计算机性能设置
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\systempropertiesperformance.exe
+     1969/7/2 16:26
+
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell
+   explorer.exe
+     explorer.exe
+     Windows 资源管理器
+     Microsoft Corporation
+     10.0.18362.693
+     c:\windows\explorer.exe
+     2017/1/16 8:53
+
+HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\AlternateShell
+   cmd.exe
+     cmd.exe
+     Windows 命令处理程序
+     Microsoft Corporation
+     10.0.18362.449
+     c:\windows\system32\cmd.exe
+     1914/12/28 14:19
+
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+   SecurityHealth
+     %windir%\system32\SecurityHealthSystray.exe
+     Windows Security notification icon
+     Microsoft Corporation
+     10.0.18362.628
+     c:\windows\system32\securityhealthsystray.exe
+     2032/12/4 8:10
+   LenovoUtility
+     C:\ProgramData\Lenovo\ImController\Plugins\IdeaOSDPackage\x64\utility.exe
+     Lenovo Utility
+     Lenovo(beijing) Limited
+     3.0.0.23
+     c:\programdata\lenovo\imcontroller\plugins\ideaosdpackage\x64\utility.exe
+     2017/7/21 19:14
+   RTHDVCPL
+     "C:\Program Files\Realtek\Audio\HDA\RAVCpl64.exe" -s
+     Realtek高清晰音频管理器
+     Realtek Semiconductor
+     1.0.0.1128
+     c:\program files\realtek\audio\hda\ravcpl64.exe
+     2018/9/28 15:10
+   RtHDVBg_Dolby
+     "C:\Program Files\Realtek\Audio\HDA\RAVBg64.exe" /FORPCEE4
+     HD Audio Background Process
+     Realtek Semiconductor
+     1.0.0.295
+     c:\program files\realtek\audio\hda\ravbg64.exe
+     2018/10/12 15:32
+   RtHDVBg_LENOVO_DOLBYDRAGON
+     "C:\Program Files\Realtek\Audio\HDA\RAVBg64.exe" /LENOVO_DOLBYDRAGON
+     HD Audio Background Process
+     Realtek Semiconductor
+     1.0.0.295
+     c:\program files\realtek\audio\hda\ravbg64.exe
+     2018/10/12 15:32
+   DAX2_APP
+     C:\Program Files\Dolby\Dolby DAX2\DAX2_APP\DolbyDAX2TrayIcon.exe -Hide
+     0.7.2.62
+     c:\program files\dolby\dolby dax2\dax2_app\dolbydax2trayicon.exe
+     2016/6/24 16:30
+
+HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run
+   LogMeIn Hamachi Ui
+     "C:\Program Files (x86)\LogMeIn Hamachi\hamachi-2-ui.exe" --auto-start
+     Hamachi Client Application
+     LogMeIn Inc.
+     2.2.0.633
+     c:\program files (x86)\logmein hamachi\hamachi-2-ui.exe
+     2019/4/2 22:58
+
+HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components
+   Microsoft Windows Media Player
+     %SystemRoot%\system32\unregmp2.exe /ShowWMP
+     Microsoft Windows Media Player 安装实用程序
+     Microsoft Corporation
+     12.0.18362.1
+     c:\windows\system32\unregmp2.exe
+     1905/1/19 16:25
+   Themes Setup
+     themeui.dll
+     Windows 主题 API
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\themeui.dll
+     2004/6/4 0:28
+   Microsoft Windows Media Player
+     %SystemRoot%\system32\unregmp2.exe /FirstLogon
+     Microsoft Windows Media Player 安装实用程序
+     Microsoft Corporation
+     12.0.18362.1
+     c:\windows\system32\unregmp2.exe
+     1905/1/19 16:25
+   Windows Desktop Update
+     shell32.dll
+     Windows Shell 公用 DLL
+     Microsoft Corporation
+     10.0.18362.719
+     c:\windows\system32\shell32.dll
+     2021/3/19 19:01
+   Web Platform Customizations
+     C:\Windows\System32\ie4uinit.exe -UserConfig
+     IE 每用户初始化工具
+     Microsoft Corporation
+     11.0.18362.628
+     c:\windows\system32\ie4uinit.exe
+     1912/12/24 7:59
+   n/a
+     C:\Windows\System32\Rundll32.exe C:\Windows\System32\mscories.dll,Install
+     Microsoft .NET IE SECURITY REGISTRATION
+     Microsoft Corporation
+     2.0.50727.9136
+     c:\windows\system32\mscories.dll
+     2019/3/4 20:54
+
+HKLM\SOFTWARE\Wow6432Node\Microsoft\Active Setup\Installed Components
+   Microsoft Windows Media Player
+     %SystemRoot%\system32\unregmp2.exe /ShowWMP
+     Microsoft Windows Media Player Setup Utility
+     Microsoft Corporation
+     12.0.18362.1
+     c:\windows\syswow64\unregmp2.exe
+     1982/6/14 6:30
+   Microsoft Windows Media Player
+     %SystemRoot%\system32\unregmp2.exe /FirstLogon
+     Microsoft Windows Media Player Setup Utility
+     Microsoft Corporation
+     12.0.18362.1
+     c:\windows\syswow64\unregmp2.exe
+     1982/6/14 6:30
+   n/a
+     C:\Windows\SysWOW64\Rundll32.exe C:\Windows\SysWOW64\mscories.dll,Install
+     Microsoft .NET IE SECURITY REGISTRATION
+     Microsoft Corporation
+     2.0.50727.9136
+     c:\windows\syswow64\mscories.dll
+     2019/3/5 2:12
+   Google Chrome
+     "C:\Program Files (x86)\Google\Chrome\Application\77.0.3865.75\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level
+     Google Chrome Installer
+     Google LLC
+     77.0.3865.75
+     c:\program files (x86)\google\chrome\application\77.0.3865.75\installer\chrmstp.exe
+     2019/9/8 8:11
+
+HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows\IconServiceLib
+   IconCodecService.dll
+     IconCodecService.dll
+     Converts a PNG part of the icon to a legacy bmp icon
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\iconcodecservice.dll
+     1943/11/28 10:47
+
+HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+   ctfmon
+     C:\WINDOWS\system32\ctfmon.exe
+     CTF 加载程序
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\ctfmon.exe
+     2012/12/25 15:01
+   WallpaperEngine
+     "G:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe" -silent
+     1.0.0.0
+     g:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe
+     2019/12/17 1:35
+   Thunder
+     C:\Program Files (x86)\Thunder Network\Thunder9\Program\Thunder.exe -silent -StartType:AutoRun
+     迅雷X
+     深圳市迅雷网络技术有限公司
+     10.1.28.676
+     c:\program files (x86)\thunder network\thunder9\program\thunder.exe
+     2019/12/26 21:35
+
+HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+   ctfmon
+     C:\WINDOWS\system32\ctfmon.exe
+     CTF 加载程序
+     Microsoft Corporation
+     10.0.18362.1
+     c:\windows\system32\ctfmon.exe
+     2012/12/25 15:01
+   WallpaperEngine
+     "G:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe" -silent
+     1.0.0.0
+     g:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe
+     2019/12/17 1:35
+   Thunder
+     C:\Program Files (x86)\Thunder Network\Thunder9\Program\Thunder.exe -silent -StartType:AutoRun
+     迅雷X
+     深圳市迅雷网络技术有限公司
+     10.1.28.676
+     c:\program files (x86)\thunder network\thunder9\program\thunder.exe
+     2019/12/26 21:35
+
+E:\网络入侵检测\SysinternalsSuite>ipconfig
+
+Windows IP 配置
+
+
+以太网适配器 Hamachi:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   IPv6 地址 . . . . . . . . . . . . : 2620:9b::192a:b4ee
+   本地链接 IPv6 地址. . . . . . . . : fe80::500c:8338:f77a:a341%10
+   IPv4 地址 . . . . . . . . . . . . : 25.42.180.238
+   子网掩码  . . . . . . . . . . . . : 255.0.0.0
+   默认网关. . . . . . . . . . . . . : 2620:9b::1900:1
+                                       25.0.0.1
+
+以太网适配器 以太网 3:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+
+无线局域网适配器 WLAN:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : local
+
+无线局域网适配器 本地连接* 1:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+
+以太网适配器 以太网:
+
+   连接特定的 DNS 后缀 . . . . . . . : DHCP HOST
+   本地链接 IPv6 地址. . . . . . . . : fe80::7890:73f:1302:b7ab%21
+   IPv4 地址 . . . . . . . . . . . . : 192.168.0.106
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.0.1
+
+以太网适配器 VMware Network Adapter VMnet1:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   本地链接 IPv6 地址. . . . . . . . : fe80::75dd:88ba:66d3:93ec%5
+   IPv4 地址 . . . . . . . . . . . . : 192.168.187.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . :
+
+以太网适配器 VMware Network Adapter VMnet8:
+
+   连接特定的 DNS 后缀 . . . . . . . :
+   本地链接 IPv6 地址. . . . . . . . : fe80::258b:1d03:57b4:2f13%22
+   IPv4 地址 . . . . . . . . . . . . : 192.168.127.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . :
+
+以太网适配器 以太网 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+
+以太网适配器 蓝牙网络连接:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . :
+
+E:\网络入侵检测\SysinternalsSuite>netstat -anb
+请求的操作需要提升。
+（这里我的电脑打不开。。。）
+E:\网络入侵检测\SysinternalsSuite>netstat
+
+活动连接
+
+  协议  本地地址          外部地址        状态
+  TCP    127.0.0.1:49673        steamcommunity:49675   ESTABLISHED
+  TCP    127.0.0.1:49674        steamcommunity:49676   ESTABLISHED
+  TCP    127.0.0.1:49675        steamcommunity:49673   ESTABLISHED
+  TCP    127.0.0.1:49676        steamcommunity:49674   ESTABLISHED
+  TCP    127.0.0.1:49677        steamcommunity:49678   ESTABLISHED
+  TCP    127.0.0.1:49678        steamcommunity:49677   ESTABLISHED
+  TCP    127.0.0.1:49680        steamcommunity:49681   ESTABLISHED
+  TCP    127.0.0.1:49681        steamcommunity:49680   ESTABLISHED
+  TCP    127.0.0.1:49682        steamcommunity:49683   ESTABLISHED
+  TCP    127.0.0.1:49683        steamcommunity:49682   ESTABLISHED
+  TCP    127.0.0.1:49684        steamcommunity:49685   ESTABLISHED
+  TCP    127.0.0.1:49685        steamcommunity:49684   ESTABLISHED
+  TCP    127.0.0.1:49686        steamcommunity:49687   ESTABLISHED
+  TCP    127.0.0.1:49687        steamcommunity:49686   ESTABLISHED
+  TCP    127.0.0.1:49688        steamcommunity:49689   ESTABLISHED
+  TCP    127.0.0.1:49689        steamcommunity:49688   ESTABLISHED
+  TCP    127.0.0.1:49690        steamcommunity:49691   ESTABLISHED
+  TCP    127.0.0.1:49691        steamcommunity:49690   ESTABLISHED
+  TCP    127.0.0.1:49695        steamcommunity:49696   ESTABLISHED
+  TCP    127.0.0.1:49696        steamcommunity:49695   ESTABLISHED
+  TCP    127.0.0.1:49697        steamcommunity:49698   ESTABLISHED
+  TCP    127.0.0.1:49698        steamcommunity:49697   ESTABLISHED
+  TCP    127.0.0.1:49699        steamcommunity:49700   ESTABLISHED
+  TCP    127.0.0.1:49700        steamcommunity:49699   ESTABLISHED
+  TCP    127.0.0.1:49701        steamcommunity:49702   ESTABLISHED
+  TCP    127.0.0.1:49702        steamcommunity:49701   ESTABLISHED
+  TCP    127.0.0.1:49705        steamcommunity:49706   ESTABLISHED
+  TCP    127.0.0.1:49706        steamcommunity:49705   ESTABLISHED
+  TCP    127.0.0.1:49707        steamcommunity:49708   ESTABLISHED
+  TCP    127.0.0.1:49708        steamcommunity:49707   ESTABLISHED
+  TCP    127.0.0.1:49709        steamcommunity:49710   ESTABLISHED
+  TCP    127.0.0.1:49710        steamcommunity:49709   ESTABLISHED
+  TCP    127.0.0.1:49711        steamcommunity:49712   ESTABLISHED
+  TCP    127.0.0.1:49712        steamcommunity:49711   ESTABLISHED
+  TCP    127.0.0.1:49713        steamcommunity:49714   ESTABLISHED
+  TCP    127.0.0.1:49714        steamcommunity:49713   ESTABLISHED
+  TCP    127.0.0.1:49715        steamcommunity:49716   ESTABLISHED
+  TCP    127.0.0.1:49716        steamcommunity:49715   ESTABLISHED
+  TCP    127.0.0.1:49717        steamcommunity:49718   ESTABLISHED
+  TCP    127.0.0.1:49718        steamcommunity:49717   ESTABLISHED
+  TCP    127.0.0.1:49719        steamcommunity:49720   ESTABLISHED
+  TCP    127.0.0.1:49720        steamcommunity:49719   ESTABLISHED
+  TCP    127.0.0.1:49721        steamcommunity:49722   ESTABLISHED
+  TCP    127.0.0.1:49722        steamcommunity:49721   ESTABLISHED
+  TCP    127.0.0.1:49724        steamcommunity:49725   ESTABLISHED
+  TCP    127.0.0.1:49725        steamcommunity:49724   ESTABLISHED
+  TCP    127.0.0.1:49726        steamcommunity:49727   ESTABLISHED
+  TCP    127.0.0.1:49727        steamcommunity:49726   ESTABLISHED
+  TCP    127.0.0.1:49728        steamcommunity:49729   ESTABLISHED
+  TCP    127.0.0.1:49729        steamcommunity:49728   ESTABLISHED
+  TCP    127.0.0.1:49730        steamcommunity:49731   ESTABLISHED
+  TCP    127.0.0.1:49731        steamcommunity:49730   ESTABLISHED
+  TCP    127.0.0.1:49732        steamcommunity:49733   ESTABLISHED
+  TCP    127.0.0.1:49733        steamcommunity:49732   ESTABLISHED
+  TCP    127.0.0.1:49734        steamcommunity:49735   ESTABLISHED
+  TCP    127.0.0.1:49735        steamcommunity:49734   ESTABLISHED
+  TCP    127.0.0.1:49736        steamcommunity:49737   ESTABLISHED
+  TCP    127.0.0.1:49737        steamcommunity:49736   ESTABLISHED
+  TCP    127.0.0.1:49738        steamcommunity:49739   ESTABLISHED
+  TCP    127.0.0.1:49739        steamcommunity:49738   ESTABLISHED
+  TCP    127.0.0.1:49740        steamcommunity:49741   ESTABLISHED
+  TCP    127.0.0.1:49741        steamcommunity:49740   ESTABLISHED
+  TCP    127.0.0.1:49742        steamcommunity:49743   ESTABLISHED
+  TCP    127.0.0.1:49743        steamcommunity:49742   ESTABLISHED
+  TCP    127.0.0.1:49744        steamcommunity:49745   ESTABLISHED
+  TCP    127.0.0.1:49745        steamcommunity:49744   ESTABLISHED
+  TCP    127.0.0.1:49748        steamcommunity:49749   ESTABLISHED
+  TCP    127.0.0.1:49749        steamcommunity:49748   ESTABLISHED
+  TCP    127.0.0.1:49750        steamcommunity:49751   ESTABLISHED
+  TCP    127.0.0.1:49751        steamcommunity:49750   ESTABLISHED
+  TCP    127.0.0.1:49752        steamcommunity:49753   ESTABLISHED
+  TCP    127.0.0.1:49753        steamcommunity:49752   ESTABLISHED
+  TCP    127.0.0.1:49754        steamcommunity:49755   ESTABLISHED
+  TCP    127.0.0.1:49755        steamcommunity:49754   ESTABLISHED
+  TCP    127.0.0.1:49756        steamcommunity:49757   ESTABLISHED
+  TCP    127.0.0.1:49757        steamcommunity:49756   ESTABLISHED
+  TCP    127.0.0.1:49758        steamcommunity:49759   ESTABLISHED
+  TCP    127.0.0.1:49759        steamcommunity:49758   ESTABLISHED
+  TCP    127.0.0.1:49760        steamcommunity:49761   ESTABLISHED
+  TCP    127.0.0.1:49761        steamcommunity:49760   ESTABLISHED
+  TCP    127.0.0.1:49762        steamcommunity:49763   ESTABLISHED
+  TCP    127.0.0.1:49763        steamcommunity:49762   ESTABLISHED
+  TCP    127.0.0.1:49764        steamcommunity:49765   ESTABLISHED
+  TCP    127.0.0.1:49765        steamcommunity:49764   ESTABLISHED
+  TCP    127.0.0.1:49766        steamcommunity:49767   ESTABLISHED
+  TCP    127.0.0.1:49767        steamcommunity:49766   ESTABLISHED
+  TCP    127.0.0.1:49768        steamcommunity:49769   ESTABLISHED
+  TCP    127.0.0.1:49769        steamcommunity:49768   ESTABLISHED
+  TCP    127.0.0.1:49770        steamcommunity:49771   ESTABLISHED
+  TCP    127.0.0.1:49771        steamcommunity:49770   ESTABLISHED
+  TCP    127.0.0.1:49772        steamcommunity:49773   ESTABLISHED
+  TCP    127.0.0.1:49773        steamcommunity:49772   ESTABLISHED
+  TCP    127.0.0.1:49774        steamcommunity:49775   ESTABLISHED
+  TCP    127.0.0.1:49775        steamcommunity:49774   ESTABLISHED
+  TCP    127.0.0.1:49776        steamcommunity:49777   ESTABLISHED
+  TCP    127.0.0.1:49777        steamcommunity:49776   ESTABLISHED
+  TCP    127.0.0.1:49778        steamcommunity:49779   ESTABLISHED
+  TCP    127.0.0.1:49779        steamcommunity:49778   ESTABLISHED
+  TCP    127.0.0.1:49780        steamcommunity:49781   ESTABLISHED
+  TCP    127.0.0.1:49781        steamcommunity:49780   ESTABLISHED
+  TCP    127.0.0.1:49782        steamcommunity:49783   ESTABLISHED
+  TCP    127.0.0.1:49783        steamcommunity:49782   ESTABLISHED
+  TCP    127.0.0.1:49784        steamcommunity:49785   ESTABLISHED
+  TCP    127.0.0.1:49785        steamcommunity:49784   ESTABLISHED
+  TCP    127.0.0.1:49786        steamcommunity:49787   ESTABLISHED
+  TCP    127.0.0.1:49787        steamcommunity:49786   ESTABLISHED
+  TCP    127.0.0.1:49788        steamcommunity:49789   ESTABLISHED
+  TCP    127.0.0.1:49789        steamcommunity:49788   ESTABLISHED
+  TCP    127.0.0.1:49790        steamcommunity:49791   ESTABLISHED
+  TCP    127.0.0.1:49791        steamcommunity:49790   ESTABLISHED
+  TCP    127.0.0.1:49792        steamcommunity:49793   ESTABLISHED
+  TCP    127.0.0.1:49793        steamcommunity:49792   ESTABLISHED
+  TCP    127.0.0.1:49794        steamcommunity:49795   ESTABLISHED
+  TCP    127.0.0.1:49795        steamcommunity:49794   ESTABLISHED
+  TCP    127.0.0.1:49796        steamcommunity:49797   ESTABLISHED
+  TCP    127.0.0.1:49797        steamcommunity:49796   ESTABLISHED
+  TCP    127.0.0.1:49798        steamcommunity:49801   ESTABLISHED
+  TCP    127.0.0.1:49799        steamcommunity:49800   ESTABLISHED
+  TCP    127.0.0.1:49800        steamcommunity:49799   ESTABLISHED
+  TCP    127.0.0.1:49801        steamcommunity:49798   ESTABLISHED
+  TCP    127.0.0.1:49802        steamcommunity:49803   ESTABLISHED
+  TCP    127.0.0.1:49803        steamcommunity:49802   ESTABLISHED
+  TCP    127.0.0.1:49804        steamcommunity:49805   ESTABLISHED
+  TCP    127.0.0.1:49805        steamcommunity:49804   ESTABLISHED
+  TCP    127.0.0.1:49806        steamcommunity:49807   ESTABLISHED
+  TCP    127.0.0.1:49807        steamcommunity:49806   ESTABLISHED
+  TCP    127.0.0.1:49808        steamcommunity:49809   ESTABLISHED
+  TCP    127.0.0.1:49809        steamcommunity:49808   ESTABLISHED
+  TCP    127.0.0.1:49810        steamcommunity:49811   ESTABLISHED
+  TCP    127.0.0.1:49811        steamcommunity:49810   ESTABLISHED
+  TCP    127.0.0.1:49812        steamcommunity:49813   ESTABLISHED
+  TCP    127.0.0.1:49813        steamcommunity:49812   ESTABLISHED
+  TCP    127.0.0.1:49814        steamcommunity:49815   ESTABLISHED
+  TCP    127.0.0.1:49815        steamcommunity:49814   ESTABLISHED
+  TCP    127.0.0.1:49816        steamcommunity:49817   ESTABLISHED
+  TCP    127.0.0.1:49817        steamcommunity:49816   ESTABLISHED
+  TCP    127.0.0.1:49820        steamcommunity:49821   ESTABLISHED
+  TCP    127.0.0.1:49821        steamcommunity:49820   ESTABLISHED
+  TCP    127.0.0.1:49822        steamcommunity:49823   ESTABLISHED
+  TCP    127.0.0.1:49823        steamcommunity:49822   ESTABLISHED
+  TCP    127.0.0.1:49824        steamcommunity:49825   ESTABLISHED
+  TCP    127.0.0.1:49825        steamcommunity:49824   ESTABLISHED
+  TCP    127.0.0.1:49826        steamcommunity:49827   ESTABLISHED
+  TCP    127.0.0.1:49827        steamcommunity:49826   ESTABLISHED
+  TCP    127.0.0.1:49828        steamcommunity:49829   ESTABLISHED
+  TCP    127.0.0.1:49829        steamcommunity:49828   ESTABLISHED
+  TCP    127.0.0.1:49830        steamcommunity:49831   ESTABLISHED
+  TCP    127.0.0.1:49831        steamcommunity:49830   ESTABLISHED
+  TCP    127.0.0.1:49832        steamcommunity:49833   ESTABLISHED
+  TCP    127.0.0.1:49833        steamcommunity:49832   ESTABLISHED
+  TCP    127.0.0.1:49850        steamcommunity:49851   ESTABLISHED
+  TCP    127.0.0.1:49851        steamcommunity:49850   ESTABLISHED
+  TCP    127.0.0.1:49852        steamcommunity:49853   ESTABLISHED
+  TCP    127.0.0.1:49853        steamcommunity:49852   ESTABLISHED
+  TCP    127.0.0.1:49854        steamcommunity:49855   ESTABLISHED
+  TCP    127.0.0.1:49855        steamcommunity:49854   ESTABLISHED
+  TCP    127.0.0.1:49858        steamcommunity:49859   ESTABLISHED
+  TCP    127.0.0.1:49859        steamcommunity:49858   ESTABLISHED
+  TCP    127.0.0.1:49860        steamcommunity:49861   ESTABLISHED
+  TCP    127.0.0.1:49861        steamcommunity:49860   ESTABLISHED
+  TCP    127.0.0.1:49862        steamcommunity:49863   ESTABLISHED
+  TCP    127.0.0.1:49863        steamcommunity:49862   ESTABLISHED
+  TCP    127.0.0.1:49864        steamcommunity:49865   ESTABLISHED
+  TCP    127.0.0.1:49865        steamcommunity:49864   ESTABLISHED
+  TCP    127.0.0.1:49868        steamcommunity:49869   ESTABLISHED
+  TCP    127.0.0.1:49869        steamcommunity:49868   ESTABLISHED
+  TCP    127.0.0.1:49870        steamcommunity:49871   ESTABLISHED
+  TCP    127.0.0.1:49871        steamcommunity:49870   ESTABLISHED
+  TCP    127.0.0.1:49872        steamcommunity:49873   ESTABLISHED
+  TCP    127.0.0.1:49873        steamcommunity:49872   ESTABLISHED
+  TCP    127.0.0.1:49874        steamcommunity:49875   ESTABLISHED
+  TCP    127.0.0.1:49875        steamcommunity:49874   ESTABLISHED
+  TCP    127.0.0.1:49876        steamcommunity:49877   ESTABLISHED
+  TCP    127.0.0.1:49877        steamcommunity:49876   ESTABLISHED
+  TCP    127.0.0.1:52274        steamcommunity:52275   ESTABLISHED
+  TCP    127.0.0.1:52275        steamcommunity:52274   ESTABLISHED
+  TCP    127.0.0.1:52636        steamcommunity:54530   ESTABLISHED
+  TCP    127.0.0.1:52637        steamcommunity:52638   ESTABLISHED
+  TCP    127.0.0.1:52638        steamcommunity:52637   ESTABLISHED
+  TCP    127.0.0.1:54530        steamcommunity:52636   ESTABLISHED
+
+E:\网络入侵检测\SysinternalsSuite>pslist.exe
+
+PsList v1.4 - Process information lister
+Copyright (C) 2000-2016 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Process information for LAPTOP-ETPB7K53:
+
+Name                Pid Pri Thd  Hnd   Priv        CPU Time    Elapsed Time
+Idle                  0   0   8    0     60    15:17:50.187     2:03:57.988
+System                4   8 251 6857    228     0:04:55.515     2:03:57.988
+Registry            120   8   4    0  19520     0:00:02.359     2:04:09.992
+smss                656  11   2   53   1168     0:00:00.265     2:03:57.953
+csrss               744  13  14  853   2048     0:00:03.609     2:03:53.588
+wininit             844  13   1  156   1444     0:00:00.093     2:03:52.369
+csrss               852  13  14  832   2644     0:00:38.343     2:03:52.363
+services            912   9  12  810   6196     0:00:05.953     2:03:52.289
+lsass               932   9  10 1634   7460     0:00:05.687     2:03:52.261
+winlogon           1004  13   3  277   2676     0:00:00.234     2:03:52.105
+svchost             736   8   2   86    968     0:00:00.000     2:03:52.061
+svchost             704   8  24 1313  14436     0:00:07.281     2:03:52.050
+fontdrvhost         468   8   5   32   1952     0:00:00.062     2:03:52.041
+fontdrvhost         472   8   5   32   5160     0:00:03.859     2:03:52.041
+WUDFHost           1036   8   5  217   1648     0:00:00.031     2:03:52.039
+svchost            1148   8  17 1486  10392     0:00:12.421     2:03:51.957
+svchost            1216   8   5  300   2740     0:00:00.781     2:03:51.931
+dwm                1280  13  16 1387 150900     0:03:11.250     2:03:51.871
+svchost            1376   8   3  183   1880     0:00:00.031     2:03:51.804
+svchost            1384   8   9  190   2260     0:00:00.093     2:03:51.804
+svchost            1392   8   9  266   2748     0:00:00.046     2:03:51.804
+svchost            1488   8   3  186   1612     0:00:00.125     2:03:51.783
+svchost            1556   8   5  258   2676     0:00:00.187     2:03:51.773
+svchost            1568   8   3  160   2252     0:00:00.125     2:03:51.772
+svchost            1672   8   3  263   2376     0:00:00.218     2:03:51.746
+svchost            1704   8   6  134   1572     0:00:00.000     2:03:51.742
+svchost            1792   8  14  485  17680     0:00:02.328     2:03:51.718
+svchost            1932   8   2  127   1536     0:00:00.031     2:03:51.694
+svchost            2036   8   5  258   2308     0:00:00.500     2:03:51.669
+svchost            2044   8   4  167   6280     0:00:00.546     2:03:51.668
+svchost            1636   8   9  257   2728     0:00:01.437     2:03:51.640
+NVDisplay.Container  1928   8  11  275   4740     0:00:03.546     2:03:51.639
+dasHost            2116   8   5  541   5332     0:00:00.234     2:03:51.625
+svchost            2208   8   4  228   9052     0:00:02.515     2:03:51.599
+svchost            2216   8   3  277   1316     0:00:00.062     2:03:51.596
+svchost            2228   8   8  181   2116     0:00:00.171     2:03:51.595
+svchost            2252   8   7  233   2692     0:00:08.687     2:03:51.589
+svchost            2272   8   9  194   8052     0:00:14.640     2:03:51.586
+svchost            2308   8  15  426   6852     0:00:02.734     2:03:51.582
+svchost            2356   8  15  391   5712     0:00:01.843     2:03:51.566
+Memory Compression  2492   8  66    0    632     0:00:12.359     2:03:51.532
+svchost            2568   8   4  235   2408     0:00:00.140     2:03:51.519
+svchost            2628   8   6  286   2824     0:00:00.890     2:03:51.505
+svchost            2692   8  18  318   3936     0:00:20.546     2:03:51.482
+svchost            2780   8   3  225   2424     0:00:00.171     2:03:51.448
+igfxCUIService     2808   8   2  177   1976     0:00:00.093     2:03:51.439
+svchost            2840   8  10  448   3132     0:00:02.421     2:03:51.427
+svchost            2944   8   3  183   1804     0:00:00.343     2:03:51.395
+svchost            2952   8   7  167   1984     0:00:02.312     2:03:51.393
+svchost            2740   8  11  421   3616     0:00:01.671     2:03:51.156
+RtkAudioService64  3128   8   2  173   1676     0:00:00.031     2:03:51.100
+svchost            3216   8  10  311   2708     0:00:00.640     2:03:51.076
+svchost            3448   8  12  372   3216     0:00:00.859     2:03:50.860
+svchost            3444   8   7  142   1952     0:00:00.531     2:03:50.860
+svchost            3708   8   9  213   2568     0:00:01.906     2:03:50.805
+svchost            3804   8  16  507   6768     0:00:00.828     2:03:50.751
+svchost            3860   8   5  265   2976     0:00:00.234     2:03:50.626
+spoolsv            3928   8   7  448   5828     0:00:01.578     2:03:50.602
+svchost            4060   8  15  428  38116     0:00:06.734     2:03:50.424
+svchost            4088   8   6  192   2148     0:00:00.062     2:03:50.399
+CAJSHost           4300   8   2  166   1576     0:00:00.046     2:03:50.157
+svchost            4308   8  21  383  29848     0:00:12.937     2:03:50.156
+SynTPEnhService    4320   8   5  319   2308     0:00:00.140     2:03:50.153
+svchost            4336   8  18  543  29084     0:00:41.390     2:03:50.150
+IntelCpHDCPSvc     4348   8   3  169   1584     0:00:00.062     2:03:50.149
+Lenovo.Modern.ImController  4364   8  42 1189  43756     0:00:07.140     2:03:50.148
+LMIGuardianSvc     4384   8   4  193   2004     0:00:00.140     2:03:50.146
+PluginLoaderSvc    4396   8  27  459   7628     0:00:01.328     2:03:50.145
+nvwirelesscontroller  4404   8   8  190   2492     0:00:00.015     2:03:50.144
+svchost            4412   8   4  130   1904     0:00:00.062     2:03:50.143
+IntelTechnologyAccessService  4420   8  75  727  13412     0:00:00.718     2:03:50.141
+LegacyCsLoaderService  4428   8   6  234   4892     0:00:00.171     2:03:50.140
+RtkBtManServ       4448   8   2 1240   1976     0:00:00.531     2:03:50.138
+RazerCentralService  4460   8   9  832  32648     0:00:09.187     2:03:50.137
+QQProtect          4468   8  20  465  17332     0:00:01.453     2:03:50.137
+IpOverUsbSvc       4476   8   6  291   4536     0:00:00.437     2:03:50.137
+SangforPromoteService  4488   8  13  441   4584     0:00:01.437     2:03:50.135
+GameManagerService  4500   8   5  449  14936     0:00:02.453     2:03:50.133
+svchost            4516   8   2  137   1652     0:00:00.046     2:03:50.130
+FNPLicensingService  4524   8   6  222   2544     0:00:00.484     2:03:50.129
+svchost            4532   8  23  396   7996     0:00:00.593     2:03:50.128
+svchost            4540   8  11  658  19364     0:00:09.687     2:03:50.126
+vmnetdhcp          4552   8   2   87   7792     0:00:00.062     2:03:50.109
+svchost            4568   8   7  394   4720     0:00:00.328     2:03:50.105
+svchost            4576   8   3  160   1336     0:00:00.000     2:03:50.104
+nvcontainer        4584   8  17  418   8572     0:00:04.500     2:03:50.104
+MsMpEng            4596   8  43  883 244124     0:04:02.437     2:03:50.101
+TsService          4604   8  24  734  15048     0:00:16.312     2:03:50.100
+vmnat              4612   8   4  176   2596     0:00:00.109     2:03:50.099
+svchost            4620   8  12  295   4516     0:00:00.750     2:03:50.098
+svchost            4672   8   7  212   2516     0:00:00.156     2:03:50.082
+hamachi-2          5200   8   4  268   3908     0:00:01.203     2:03:49.955
+svchost            5208   8   7  490   3816     0:00:00.875     2:03:49.954
+vmware-authd       5220   8   6  316   9380     0:00:04.859     2:03:49.953
+vmware-usbarbitrator64  5248   8   3  218   2772     0:00:00.234     2:03:49.950
+svchost            5284   8   3  109   1320     0:00:00.000     2:03:49.946
+IntelCpHeciSvc     5452   8   6  267   2884     0:00:00.078     2:03:49.869
+svchost            5600   8  14  396   3600     0:00:00.171     2:03:49.771
+WmiPrvSE           8108   8   5  188   3432     0:00:00.234     2:03:47.138
+NisSrv             7296   8  12  205   9676     0:00:03.000     2:03:46.639
+Razer Synapse Service  7576   8  23 1677  54004     0:00:12.000     2:03:46.553
+NVDisplay.Container  2024   8  18  473  24844     0:00:02.375     2:03:35.642
+RAVBg64            7728   8   4  316   5980     0:00:00.203     2:03:31.871
+nvcontainer        3304   8  23  383  11748     0:00:01.484     2:03:31.838
+Razer Synapse Service Process  7740   8  20  699  29120     0:00:37.734     2:03:31.810
+sihost             8264   8  14  801  11436     0:00:05.953     2:03:31.735
+svchost            8320   8  14  344   7840     0:00:06.625     2:03:31.682
+dllhost            8384   8  10  304   8348     0:00:00.890     2:03:31.652
+PresentationFontCache  8416   8   4  249  28812     0:00:01.390     2:03:31.635
+svchost            8424   8   5  508   8060     0:00:01.593     2:03:31.634
+LenovoNerveCenterUpdateAgent  8592   6   8  442  21072     0:00:00.296     2:03:31.515
+taskhostw          8616   8   6  228   3200     0:00:00.453     2:03:31.500
+svchost            8656   8   6  266   3368     0:00:00.515     2:03:31.473
+svchost            8852   8   4  170   1836     0:00:00.031     2:03:31.304
+ctfmon             9140  13  14  715  12324     0:00:19.937     2:03:31.168
+svchost            8996   8   4  118   1360     0:00:00.031     2:03:30.950
+svchost            8792   8  14  385   5120     0:00:00.296     2:03:30.950
+explorer           9488   8  93 3057 122616     0:01:24.937     2:03:30.238
+ChsIME             9680   8  53 1105  17108     0:00:13.453     2:03:29.941
+SynTPEnh           9708  10   7  526   6408     0:00:09.203     2:03:29.869
+igfxEM             9816   8   3  212   3540     0:00:00.187     2:03:29.706
+ECAgent            9972   8   5  263   3924     0:00:01.250     2:03:29.412
+svchost           10128   8   3  182   1868     0:00:00.671     2:03:29.035
+svchost            8964   8   4  166   1864     0:00:00.281     2:03:28.888
+svchost            9776   8   7  314   3724     0:00:00.250     2:03:28.874
+SynTPHelper       10744  10   1   78   1100     0:00:00.015     2:03:27.563
+svchost           10752   8   7  272   4444     0:00:00.531     2:03:27.547
+unsecapp          10888   8   3  140   2324     0:00:00.046     2:03:27.397
+ioc               11124   8   8  407  16788     0:00:01.140     2:03:26.873
+svchost            8604   8   3  207   2244     0:00:00.109     2:03:26.226
+svchost           10084   8   2  142   1616     0:00:00.000     2:03:26.226
+StartMenuExperienceHost 10624   8  10  649  42084     0:00:02.203     2:03:26.122
+svchost           10792   8   5  271   2968     0:00:00.250     2:03:26.016
+QQBrowser         10660   8   7  543  19936     0:00:01.140     2:03:25.603
+RuntimeBroker     11420   8   3  292   5936     0:00:00.562     2:03:25.202
+SearchUI          11728   8  48 1576 113196     0:00:09.453     2:03:24.665
+SearchIndexer     11844   8  18  844  31376     0:00:11.578     2:03:24.508
+RuntimeBroker     11912   8  15  598  11720     0:00:04.968     2:03:24.414
+ShellExperienceHost 12124   8  12  572  13120     0:00:00.656     2:03:24.194
+svchost           11664   8   7  291   4080     0:00:00.250     2:03:23.747
+SkypeBackgroundHost 12400   8   4  155   2048     0:00:00.062     2:03:23.541
+svchost           12432   8   4  361   8480     0:00:01.468     2:03:23.487
+YourPhone         12580   8  19  673  28700     0:00:00.531     2:03:23.324
+SkypeApp          12620   8  16  432  14464     0:00:00.203     2:03:23.301
+LockApp           12968   8  12  543  24788     0:00:00.968     2:03:22.979
+WindowsInternal.ComposableShell.Experiences.TextInput.InputApp 13140   8  17  713  25516     0:00:04.968     2:03:22.780
+RuntimeBroker     13240   8   8  397   9048     0:00:01.765     2:03:22.701
+RuntimeBroker     13324   8   4  358   7104     0:00:13.609     2:03:22.151
+RuntimeBroker     13744   8   2  218   2856     0:00:00.234     2:03:20.708
+RuntimeBroker     13904   8   4  213   2732     0:00:00.062     2:03:20.397
+Lenovo.Modern.ImController.PluginHost.SettingsApp 14272   8  16  519  30392     0:00:02.687     2:03:16.614
+utility           13820   8   3  150   1772     0:00:00.390     2:03:13.108
+RAVCpl64          13868   8   8  364   4188     0:00:00.234     2:03:12.765
+RAVBg64            4836   8   4  316   6060     0:00:00.156     2:03:12.090
+RAVBg64            4564   8   4  315   6052     0:00:00.140     2:03:11.533
+DolbyDAX2TrayIcon  7916   8   3  182   3936     0:00:00.078     2:03:11.067
+DolbyDAX2API      11088   8   6  397  30916     0:00:01.187     2:03:10.079
+dllhost           10576   8   4  200   3620     0:00:00.093     2:02:49.534
+svchost           13784   8   8  269   4688     0:00:00.953     2:02:45.912
+TIM                 856   8 100 1764 187728     0:03:42.843     2:02:31.382
+TXPlatform        12800   8   2  215   4108     0:00:00.062     2:02:30.394
+jhi_service        4832   8   2  165   1548     0:00:00.062     2:01:36.271
+LMS               11880   8   4  277   3260     0:00:00.406     2:01:36.123
+SgrmBroker         5316   8   5   89   3304     0:00:00.093     2:01:35.808
+svchost           13304   8   8  224   2636     0:00:00.109     2:01:35.365
+svchost           10264   8   2  247   2888     0:00:00.109     2:01:35.227
+SecurityHealthService 14692   8   5  258   3376     0:00:00.109     2:01:23.561
+ApplicationFrameHost 15056   8  16  626  29652     0:00:04.734     2:01:11.875
+WinStore.App      15084   8  22  957  62520     0:00:02.640     2:01:11.864
+RuntimeBroker     15292   8   2  220   5216     0:00:00.453     2:01:11.270
+RuntimeBroker      9528   8   9  509  10816     0:00:01.578     2:01:00.977
+MicrosoftEdge     13608   8  36  865  22316     0:00:00.765     2:00:50.884
+browser_broker    13228   8   2  137   1648     0:00:00.031     2:00:50.410
+RuntimeBroker      5180   8   1  138   1544     0:00:00.031     2:00:50.048
+MicrosoftEdgeSH   14920   8   9  267   3868     0:00:00.093     2:00:49.998
+MicrosoftEdgeCP   14848   8  17  500   6056     0:00:00.156     2:00:49.987
+QQLiveService     15236   8  43  694  19704     0:00:04.437     2:00:49.566
+SystemSettings     4072   8  23  845  21732     0:00:00.765     2:00:21.887
+svchost            9952   8   5  223   2936     0:00:00.203     2:00:21.226
+dllhost           16360   8   6  215   3772     0:00:00.203     1:59:56.758
+CompPkgSrv        16916   8   3  163   1860     0:00:00.046     1:59:53.607
+FlashHelperService  8992   8  41 1049   9896     0:00:01.000     1:59:07.937
+Lenovo.Modern.ImController.PluginHost.Device 14068   8  17  838  41276     0:00:12.562     1:58:28.327
+svchost            5448   8   2  229   2840     0:00:00.421     1:51:31.761
+Microsoft.Photos   3944   8  15  855  47384     0:00:01.593     1:33:27.858
+RuntimeBroker     13976   8   5  376   9332     0:00:00.656     1:33:26.517
+WeChat             2460   8  42 1244 108372     0:00:12.484     1:20:44.921
+WeChatWeb         11168   8  17  418  61180     0:00:00.812     1:20:42.730
+WeChatApp         11744   8  60  836 105216     0:00:02.234     1:20:21.302
+RuntimeBroker      1952   8   3  219   2744     0:00:00.156     0:42:36.894
+svchost            6280   8   2  147   1860     0:00:00.171     0:36:44.169
+wemeetlauncher    10968   8   8  265   7868     0:00:00.125     0:35:30.052
+wemeetapp          5340   8  63  955 275812     0:05:10.156     0:35:29.936
+audiodg            1348   8  17  832  21308     0:04:47.812     0:35:21.904
+FMAPP             10988   8   4  171   1828     0:00:00.796     0:35:20.697
+WeChatWeb         15832   8  13  304  35624     0:00:02.484     0:27:23.835
+WmiPrvSE           8704   8  11  326   6768     0:00:14.343     0:23:48.720
+Video.UI           8800   8  33 1195 183744     0:00:36.859     0:23:20.049
+rundll32           4164   8   2  128   1760     0:00:00.046     0:23:04.346
+cmd                8024   8   2   88   3892     0:00:00.093     0:22:56.436
+conhost            5364   8  14  366  12388     0:00:10.359     0:22:56.430
+QQExternal        15756   8  14  468  44880     0:00:05.125     0:22:39.935
+explorer          14112   8  15  969  40332     0:00:11.359     0:20:49.364
+dllhost            8720   8   4  140   1808     0:00:00.125     0:20:44.698
+notepad            1948   8   8  297   4852     0:00:05.843     0:14:43.164
+SearchProtocolHost 14548   4   5  269   2036     0:00:00.046     0:14:42.642
+QQLive            17092   8 114 1451 307472     0:01:07.640     0:13:59.594
+QQLive              408   8  13  221   7116     0:00:00.250     0:13:55.430
+QQLiveBrowser     14120   8  16  317  67788     0:00:01.203     0:13:54.885
+svchost            1660   8   4  122   1492     0:00:00.015     0:12:39.674
+smartscreen       16536   8  11  405   8224     0:00:00.171     0:04:13.783
+QQBrowser          7988   8  18  501  22004     0:00:01.265     0:04:13.710
+QQBrowser          8040   8  46  636  28136     0:00:00.796     0:04:13.571
+QQBrowser         11348   8  44 1535  58436     0:00:12.359     0:04:13.566
+QQBrowser          8020   8  23  535  79956     0:00:02.796     0:04:13.095
+QQBrowser         12064   8  17  355  52916     0:00:01.796     0:04:13.080
+QQBrowser         15124   4  18  367  46848     0:00:04.875     0:04:12.986
+QQBrowser         16652   8   3  202   6704     0:00:00.078     0:04:11.449
+QQBrowser         17236   8  11  577  21576     0:00:00.718     0:04:11.443
+QQBrowser          4776   8  16  321  24648     0:00:00.343     0:04:11.188
+svchost            9804   8   4  161   2208     0:00:00.031     0:03:57.846
+SearchFilterHost  13108   4   4  130   1436     0:00:00.015     0:00:47.749
+pslist            11148  13   4  245   3464     0:00:00.359     0:00:00.217
+
+
+
+
